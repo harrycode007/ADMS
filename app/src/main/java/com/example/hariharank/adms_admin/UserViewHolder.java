@@ -12,9 +12,9 @@ public class UserViewHolder extends RecyclerView.ViewHolder {
 
     public UserViewHolder(View v){
         super(v);
-        nam=v.findViewById(R.id.name);
-        roll_no=v.findViewById(R.id.roll);
-        tracking=v.findViewById(R.id.request);
+        nam = v.findViewById(R.id.name);
+        roll_no = v.findViewById(R.id.roll);
+        tracking = v.findViewById(R.id.request);
     }
 
 }

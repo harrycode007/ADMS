@@ -24,7 +24,9 @@
             android:name=".SignupActivity"
             android:parentActivityName=".LoginActivity" />
         <activity android:name=".ResetPasswordActivity" />
-        <activity android:name=".OcrCaptureActivity"></activity>
+        <activity android:name=".OcrCaptureActivity">
+
+        </activity>
     </application>
 
 </manifest>

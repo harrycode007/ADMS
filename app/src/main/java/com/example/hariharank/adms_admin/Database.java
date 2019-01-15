@@ -23,7 +23,7 @@ public class Database {
     }
 
     public void insert(String name,String rollno,String phone,String date,String frndrn,String frnddt,int is){
-        String r=rollno.substring(12,rollno.length()-1);
+        String r=rollno.substring(11,rollno.length());
         User user= new User(name,rollno,phone,date,frndrn,frnddt,is);
         use.child(r).setValue(user);
     }
